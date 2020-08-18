@@ -2,9 +2,9 @@
 import io
 import unittest
 import unittest.mock
-from banking import deposit
-from banking import withdraw
-from banking import enquiry
+from main import deposit
+from main import withdraw
+from main import enquiry
 
 class TestBanking(unittest.TestCase):
     """ Class to test Banking """
