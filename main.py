@@ -25,8 +25,8 @@ def enquiry(bal):
     """ Prints account details """
     print('Your Balance = %d' %bal)
 
-print("1. Deposit\n2. Withdraw\n3. Enquiry\n4. Exit\nEnter your choice: ")
-choice = int(input())
+# print("1. Deposit\n2. Withdraw\n3. Enquiry\n4. Exit\nEnter your choice: ")
+# choice = int(input())
 
 # while choice != 4:
 #     if choice == 1:
