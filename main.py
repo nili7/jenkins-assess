@@ -28,16 +28,19 @@ def enquiry(bal):
 print("1. Deposit\n2. Withdraw\n3. Enquiry\n4. Exit\nEnter your choice: ")
 choice = int(input())
 
-while choice != 4:
-    if choice == 1:
-        amount = int(input('Enter the amount to deposit:'))
-        BALANCE = deposit(BALANCE, amount)
-    elif choice == 2:
-        amount = int(input('Enter the amount to withdraw:'))
-        BALANCE = withdraw(BALANCE, amount)
-    elif choice == 3:
-        enquiry(BALANCE)
-    elif choice == 4:
-        break
-    print("\n1. Deposit\n2. Withdraw\n3. Enquiry\n4. Exit\nEnter your choice: ")
-    choice = int(input())
+# while choice != 4:
+#     if choice == 1:
+#         amount = int(input('Enter the amount to deposit:'))
+#         BALANCE = deposit(BALANCE, amount)
+#     elif choice == 2:
+#         amount = int(input('Enter the amount to withdraw:'))
+#         BALANCE = withdraw(BALANCE, amount)
+#     elif choice == 3:
+#         enquiry(BALANCE)
+#     elif choice == 4:
+#         break
+#     print("\n1. Deposit\n2. Withdraw\n3. Enquiry\n4. Exit\nEnter your choice: ")
+#     choice = int(input())
+BALANCE = deposit(BALANCE, 100)
+BALANCE = withdraw(BALANCE, 20)
+enquiry(BALANCE)
